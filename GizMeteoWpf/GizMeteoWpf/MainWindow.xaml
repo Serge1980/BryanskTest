@@ -1,0 +1,12 @@
+﻿<Window x:Class="GizMeteoWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GizMeteoWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="27,37,0,0" VerticalAlignment="Top" Width="183" Name="ComboDates" SelectionChanged="ComboBox_SelectionChanged" Loaded="ComboDates_Loaded"/>
+    </Grid>
+</Window>
